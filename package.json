@@ -1,0 +1,32 @@
+{
+  "name": "playnowsound_bot",
+  "version": "1.0.0",
+  "description": "music bot for telegram",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsvk13/playnowsound_bot.git"
+  },
+  "keywords": [
+    "telegraf",
+    "telegram-bot",
+    "music-bot"
+  ],
+  "author": "nsvk13",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nsvk13/playnowsound_bot/issues"
+  },
+  "homepage": "https://github.com/nsvk13/playnowsound_bot#readme",
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "eslint": "^8.57.0",
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3"
+  }
+}
