@@ -4,19 +4,20 @@
   "description": "music bot for telegram",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nsvk13/playnowsound_bot.git"
   },
   "keywords": [
-    "telegraf",
+    "grammy",
     "telegram-bot",
     "music-bot"
   ],
   "author": "nsvk13",
-  "license": "ISC",
+  "license": "GNU",
   "bugs": {
     "url": "https://github.com/nsvk13/playnowsound_bot/issues"
   },
@@ -27,6 +28,12 @@
     "nodemon": "^3.1.0"
   },
   "dependencies": {
-    "telegraf": "^4.16.3"
+    "axios": "^1.6.7",
+    "better-sqlite3": "^9.4.3",
+    "grammy": "^1.21.1",
+    "kysely": "^0.27.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "yandex-music-api": "^0.0.3"
   }
 }
